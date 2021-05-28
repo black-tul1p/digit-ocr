@@ -1,5 +1,5 @@
 # Digit OCR
-Python program that performs digit recognition using Logistic Regression. The model is trained based on the MNIST dataset and uses the Pytorch ML library.
+Python program that performs digit recognition using Logistic Regression. The model is trained on the MNIST dataset and uses the Pytorch ML library.
 
 <hr>
 
