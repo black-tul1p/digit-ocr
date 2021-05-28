@@ -1,0 +1,8 @@
+# ignores misc and cache folder
+./misc
+./__pycache__
+
+# ignores images in bnw_images folder
+./bnw_images/*.jpg
+./bnw_images/*.jpeg
+./bnw_images/*.png
