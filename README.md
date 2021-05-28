@@ -8,7 +8,7 @@ Python program that performs digit recognition using Logistic Regression. The mo
 * tqdm
 * cv2
 * PIL
-<br><br>
+
 Once you have installed `anaconda` and made a virtual env named `pytorch` (for example), run:
 1. `conda activate pytorch`
 2. `conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch`
