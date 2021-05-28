@@ -26,4 +26,4 @@ Enter your pytorch virtual environment in `anaconda` using terminal/cmd, then na
 <hr>
 
 ## Links
-To use a Google Colaboratory hosted version, <a href="https://colab.research.google.com/drive/1uaWPn638dNEn9BpXKAWxLj5iXDWmWdjr?usp=sharing">click here</a>.
+To use a Google Colaboratory hosted version, <a href="https://colab.research.google.com/drive/1uaWPn638dNEn9BpXKAWxLj5iXDWmWdjr?usp=sharing">click here</a>. You can use the test images from this repository to run it.
