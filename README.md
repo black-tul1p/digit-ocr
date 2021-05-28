@@ -27,3 +27,13 @@ Enter your pytorch virtual environment in `anaconda` using terminal/cmd, then na
 
 ## Links
 To use a Google Colaboratory hosted version, <a href="https://colab.research.google.com/drive/1uaWPn638dNEn9BpXKAWxLj5iXDWmWdjr?usp=sharing">click here</a>. The files required to use it are in the `MNIST_ocr/` folder under `For-GDrive/`.
+
+## Examples (from the Google Colab version)
+Here is an image of the model that is trained for 5 epochs and then used to identify an image of a figure 8:
+
+![black-tul1p](/readme_images/training.png)
+
+
+And here, pre-trained parameters from the previous training session are being used to identify another image of 3:
+
+![black-tul1p](/readme_images/pre-trained.png)
