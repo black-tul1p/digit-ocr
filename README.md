@@ -19,6 +19,6 @@ One you have installed `anaconda` and made a virtual env named `pytorch` (for ex
 <hr>
 
 ## Usage
-Enter your pytorch virtual environment in `anaconda` using terminal/cmd, and navigate to the code directory and run:
+Enter your pytorch virtual environment in `anaconda` using terminal/cmd, then navigate to the code directory and run:
 
 `python digit_detect.py`
