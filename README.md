@@ -34,6 +34,6 @@ Here is an image of the model that is trained for 5 epochs and then used to iden
 ![black-tul1p](/readme_images/training.png)
 
 
-And here, pre-trained parameters from the previous training session are being used to identify another image of 3:
+And here, pre-trained parameters from the previous training session are being used to identify another image of a 3:
 
 ![black-tul1p](/readme_images/pre-trained.png)
