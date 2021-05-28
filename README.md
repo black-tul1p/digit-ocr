@@ -22,3 +22,8 @@ One you have installed `anaconda` and made a virtual env named `pytorch` (for ex
 Enter your pytorch virtual environment in `anaconda` using terminal/cmd, then navigate to the code directory and run:
 
 `python digit_detect.py`
+
+<hr>
+
+## Links
+To use a Google Colaboratory hosted version, <a href="https://colab.research.google.com/drive/1uaWPn638dNEn9BpXKAWxLj5iXDWmWdjr?usp=sharing">click here</a>.
