@@ -13,7 +13,7 @@ Python program that performs digit recognition using Logistic Regression. The mo
 Once you have installed `anaconda` and made a virtual env named `pytorch` (for example), run:
 1. `conda activate pytorch`
 2. `conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch`
-3. `pip install numpy tqdm opencv-python  PIL`
+3. `pip install matplotlib numpy tqdm opencv-python PIL`
 <br><br>
 ## Usage
 Enter your pytorch virtual environment in `anaconda` using terminal/cmd, then navigate to the code directory and run:
