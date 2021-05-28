@@ -3,6 +3,6 @@
 /__pycache__
 
 # ignores images in bnw_images folder
-./bnw_images/*.jpg
-./bnw_images/*.jpeg
-./bnw_images/*.png
+/bnw_images/*.jpg
+/bnw_images/*.jpeg
+/bnw_images/*.png
