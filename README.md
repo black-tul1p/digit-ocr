@@ -4,6 +4,7 @@ Python program that performs digit recognition using Logistic Regression. The mo
 ## Requirements:
 * anaconda
 * pytorch
+* matplotlib
 * numpy
 * tqdm
 * cv2
