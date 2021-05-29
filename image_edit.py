@@ -10,9 +10,9 @@ def convert_bnw(in_path, out_path):
 def resize_img(img_path):
 	input_im = cv2.imread(img_path)
 	input_im = cv2.resize(input_im, (28, 28))
-	cv2.imshow("image_converted", input_im)
-	cv2.waitKey(0)
-	cv2.destroyAllWindows()
+	# cv2.imshow("image_converted", input_im)
+	# cv2.waitKey(0)
+	# cv2.destroyAllWindows()
 	return input_im
 
 def to_float_tensor(np_array):
