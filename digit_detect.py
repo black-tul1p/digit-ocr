@@ -8,7 +8,7 @@ import os
 
 # Global variables
 batch = 100
-img_num = 9
+img_num = 3
 
 def main():
 	choice = input("Train the model? (Y/N): ").lower()
@@ -29,15 +29,8 @@ def main():
 
 	# Define model
 	model = MNIST_Model()
-	model.linear
-	for images, labels in train_loader:
-		out = model(images)
-		break
 
-	# Get probabilities using softmax function 
-	prob = fnc.softmax(out, dim=1)
-
-	# saving the model
+	# saving the model parameters
 	if choice == "y":
 		get_gradient(num_epochs, model, 0.4, train_loader, test_loader)
 		torch.save(model.state_dict(), 'mnist-digit-ocr.pth')
