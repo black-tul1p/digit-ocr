@@ -52,14 +52,10 @@ def main():
 	if choice != "y":
 		model_new = MNIST_Model()
 		model_new.load_state_dict(torch.load('mnist-digit-ocr.pth'))
-		# print('Label:', label, ', Predicted:', predict(input_im, model_new))
 		print('Predicted:', predict(input_im, model_new))
 	else:
-		# print('Label:', label, ', Predicted:', predict(input_im, model))
 		print('Predicted:', predict(input_im, model))
-		# input("Save? (ctrl-C to save)")
 
 # Calling main
 if __name__=="__main__":
 	main()
-
