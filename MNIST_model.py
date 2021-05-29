@@ -4,11 +4,13 @@ import numpy as np
 from torchvision import torch, transforms
 import torch.nn as nn
 import torch.nn.functional as fnc
+from tqdm.notebook import tqdm
 
 ## Global variables
 image_size = 28*28
 num_classes = 10
 batch = 100
+debug = False
 
 ## Class that defines the LR model
 class MNIST_Model(nn.Module):
@@ -49,7 +51,7 @@ class MNIST_Model(nn.Module):
 # Calculate gradient values using Stochastic Gradient Descent
 def get_gradient(epochs, model, lr, train_loader, test_loader):
 	optimizer = torch.optim.SGD(model.parameters(), lr)
-	for epoch in range(epochs):
+	for epoch in tqdm(range(epochs), desc='Training progress'):
 		for batch in train_loader:
 			loss = model.training_step(batch)
 			loss.backward()
@@ -57,7 +59,8 @@ def get_gradient(epochs, model, lr, train_loader, test_loader):
 			optimizer.zero_grad()
 		# Validation of predictions for epoch
 		result = compare(model, test_loader)
-		model.epoch_end(epoch, result)
+		if debug == True:
+			model.epoch_end(epoch, result)
 
 # Get % accuracy of predictions
 def get_accuracy(output, labels):
